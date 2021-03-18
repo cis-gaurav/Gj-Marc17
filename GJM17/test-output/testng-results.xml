@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8031" started-at="2021-03-18T06:37:48Z" finished-at="2021-03-18T06:37:56Z">
+  <suite name="Default suite" duration-ms="3470" started-at="2021-03-18T11:26:06Z" finished-at="2021-03-18T11:26:09Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8031" started-at="2021-03-18T06:37:48Z" finished-at="2021-03-18T06:37:56Z">
-      <class name="GJM17.GJM17.M17">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:GJM17.GJM17.M17@475530b9]" name="setUp" is-config="true" duration-ms="7837" started-at="2021-03-18T06:37:48Z" finished-at="2021-03-18T06:37:56Z">
+    <test name="Default test" duration-ms="3470" started-at="2021-03-18T11:26:06Z" finished-at="2021-03-18T11:26:09Z">
+      <class name="GJM17.GJM17.M17a">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:GJM17.GJM17.M17a@475530b9]" name="setUp" is-config="true" duration-ms="3057" started-at="2021-03-18T11:26:06Z" finished-at="2021-03-18T11:26:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="OpenBrowser()[pri:0, instance:GJM17.GJM17.M17@475530b9]" name="OpenBrowser" duration-ms="36" started-at="2021-03-18T06:37:56Z" finished-at="2021-03-18T06:37:56Z">
+        <test-method status="FAIL" signature="OpenBrowser()[pri:0, instance:GJM17.GJM17.M17a@475530b9]" name="OpenBrowser" duration-ms="62" started-at="2021-03-18T11:26:09Z" finished-at="2021-03-18T11:26:09Z">
           <exception class="org.openqa.selenium.InvalidArgumentException">
             <message>
               <![CDATA[invalid argument
@@ -19,8 +19,8 @@
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-U147QH6D', ip: '10.168.2.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Gaurav\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50128}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 670a40653820915152846c694907923c]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Gaurav\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:54407}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c282d949611dc7431e6ad6bfb583d8af]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.InvalidArgumentException: invalid argument
@@ -28,8 +28,8 @@ Session ID: 670a40653820915152846c694907923c]]>
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-U147QH6D', ip: '10.168.2.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Gaurav\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50128}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 670a40653820915152846c694907923c
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Gaurav\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:54407}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c282d949611dc7431e6ad6bfb583d8af
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -41,7 +41,7 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-at GJM17.GJM17.M17.OpenBrowser(M17.java:22)
+at GJM17.GJM17.M17a.OpenBrowser(M17a.java:23)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -73,11 +73,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method status="PASS" signature="Teardown()[pri:0, instance:GJM17.GJM17.M17@475530b9]" name="Teardown" is-config="true" duration-ms="129" started-at="2021-03-18T06:37:56Z" finished-at="2021-03-18T06:37:56Z">
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:GJM17.GJM17.M17a@475530b9]" name="Teardown" is-config="true" duration-ms="315" started-at="2021-03-18T11:26:09Z" finished-at="2021-03-18T11:26:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
-      </class> <!-- GJM17.GJM17.M17 -->
+      </class> <!-- GJM17.GJM17.M17a -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
