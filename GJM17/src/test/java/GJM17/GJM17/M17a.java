@@ -26,6 +26,10 @@ public static WebDriver driver;
 		driver.findElement(By.name("commit")).click();	
 		Thread.sleep(3000);
 	}
+	@Test
+	public void Msg() {
+		System.out.println("GJ TEST ON JENKINS ");
+	}
 	
 	@AfterTest
 	public void Teardown() {
