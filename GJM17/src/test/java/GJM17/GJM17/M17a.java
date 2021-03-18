@@ -19,11 +19,12 @@ public static WebDriver driver;
 	}
 	
 	@Test
-	public void OpenBrowser() {
-		driver.get("next.testmd.co.uk/");
+	public void OpenBrowser() throws InterruptedException {
+		driver.get("https://next.testmd.co.uk/users/sign_in");
 		driver.findElement(By.name("user[login]")).sendKeys("gaurav.j");
 		driver.findElement(By.name("user[password]")).sendKeys("123456789");
 		driver.findElement(By.name("commit")).click();	
+		Thread.sleep(3000);
 	}
 	
 	@AfterTest
