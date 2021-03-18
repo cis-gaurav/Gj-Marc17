@@ -13,13 +13,14 @@ public static WebDriver driver;
 	@BeforeTest
 	public void setUp()
 	{
-		System.setProperty("webdriver.chrome.driver", "D:\\ChromeDriver89\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "D:\\ChromeDriver89\\chromedriver.exe"); // Path of chromedriver 
 		driver = new ChromeDriver();
 	}
 	
 	@Test
 	public void OpenBrowser() {
-		driver.get("https://mvnrepository.com/");
+		driver.get("next.testmd.co.uk/");
+
 	}
 	
 	@AfterTest

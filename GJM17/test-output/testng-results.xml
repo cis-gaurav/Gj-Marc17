@@ -1,21 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12004" started-at="2021-03-17T12:07:08Z" finished-at="2021-03-17T12:07:20Z">
+  <suite name="Default suite" duration-ms="8031" started-at="2021-03-18T06:37:48Z" finished-at="2021-03-18T06:37:56Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="12004" started-at="2021-03-17T12:07:08Z" finished-at="2021-03-17T12:07:20Z">
+    <test name="Default test" duration-ms="8031" started-at="2021-03-18T06:37:48Z" finished-at="2021-03-18T06:37:56Z">
       <class name="GJM17.GJM17.M17">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:GJM17.GJM17.M17@475530b9]" name="setUp" is-config="true" duration-ms="3150" started-at="2021-03-17T12:07:08Z" finished-at="2021-03-17T12:07:12Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:GJM17.GJM17.M17@475530b9]" name="setUp" is-config="true" duration-ms="7837" started-at="2021-03-18T06:37:48Z" finished-at="2021-03-18T06:37:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:GJM17.GJM17.M17@475530b9]" name="OpenBrowser" duration-ms="4679" started-at="2021-03-17T12:07:12Z" finished-at="2021-03-17T12:07:16Z">
+        <test-method status="FAIL" signature="OpenBrowser()[pri:0, instance:GJM17.GJM17.M17@475530b9]" name="OpenBrowser" duration-ms="36" started-at="2021-03-18T06:37:56Z" finished-at="2021-03-18T06:37:56Z">
+          <exception class="org.openqa.selenium.InvalidArgumentException">
+            <message>
+              <![CDATA[invalid argument
+  (Session info: chrome=89.0.4389.90)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-U147QH6D', ip: '10.168.2.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Gaurav\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50128}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 670a40653820915152846c694907923c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidArgumentException: invalid argument
+  (Session info: chrome=89.0.4389.90)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-U147QH6D', ip: '10.168.2.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Gaurav\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50128}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 670a40653820915152846c694907923c
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+at GJM17.GJM17.M17.OpenBrowser(M17.java:22)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidArgumentException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method status="PASS" signature="Teardown()[pri:0, instance:GJM17.GJM17.M17@475530b9]" name="Teardown" is-config="true" duration-ms="4128" started-at="2021-03-17T12:07:16Z" finished-at="2021-03-17T12:07:20Z">
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:GJM17.GJM17.M17@475530b9]" name="Teardown" is-config="true" duration-ms="129" started-at="2021-03-18T06:37:56Z" finished-at="2021-03-18T06:37:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
